@@ -6,4 +6,4 @@ $router->get('/', function () {
 
 $router->get('/viewer', function () {
     return view('viewer');
-})->name('home');
+})->name('viewer');
